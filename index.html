@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./New folder/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="toper">
+<h1 align="center"><u>Stop</u> <u>Watch</u> </h1>
+<br>
+<h5 style="text-align:center;">Made By:<br /> Muhammad Fayyaz Ansari</h5>
+    </div>
+   
+
+    <div class="container-fluid main">
+        <div class="row center">
+            <div class="col-12 col-xs-12 col-md-12 col-lg-12 outer">
+                <div id="min" class="inner">000</div>
+                <div id="sec" class="inner">000</div>
+                <div id="mili" class="inner">000</div>
+            </div>
+    
+
+        </div>
+    </div>
+    <div class="container-fluid main2">
+        <div class="row second-row">
+            <div class="col-12 last">
+                <button class ="btn" id="startbtn" onclick="start()"><span>Start</span></button>
+                <button class ="btn" onclick="pause()"><span>Pause</span></button>
+                <button class ="btn" id="resumebtn" onclick="resume()"><span>Resume</span></button>
+                <button class ="btn" onclick="stop()"><span>Stop</span></button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="./app.js">
+
+</script>
+</html>
