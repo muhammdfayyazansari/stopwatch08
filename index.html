@@ -13,16 +13,16 @@
     <div class="toper">
 <h1 align="center"><u>Stop</u> <u>Watch</u> </h1>
 <br>
-<h5 style="text-align:center;">Made By:<br /> Muhammad Fayyaz Ansari</h5>
+<h6 style="text-align:center; ">Made By:<br /> Muhammad Fayyaz Ansari</h6>
     </div>
    
 
     <div class="container-fluid main">
         <div class="row center">
             <div class="col-12 col-xs-12 col-md-12 col-lg-12 outer">
-                <div id="min" class="inner">000</div>
-                <div id="sec" class="inner">000</div>
-                <div id="mili" class="inner">000</div>
+                <div id="min" class="inner">0</div>
+                <div id="sec" class="inner">0</div>
+                <div id="mili" class="inner">0</div>
             </div>
     
 
@@ -32,9 +32,9 @@
         <div class="row second-row">
             <div class="col-12 last">
                 <button class ="btn" id="startbtn" onclick="start()"><span>Start</span></button>
-                <button class ="btn" onclick="pause()"><span>Pause</span></button>
-                <button class ="btn" id="resumebtn" onclick="resume()"><span>Resume</span></button>
-                <button class ="btn" onclick="stop()"><span>Stop</span></button>
+                <button class ="btn" id="pause" disabled onclick="pause()"><span>Pause</span></button>
+                <button class ="btn" id="resumebtn" disabled onclick="resume()"><span>Resume</span></button>
+                <button class ="btn" id="stop" disabled onclick="stop()"><span>Stop</span></button>
             </div>
         </div>
 

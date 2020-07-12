@@ -1,4 +1,5 @@
 *{
+    
     margin: 0px;
     padding: 0px;
     color: floralwhite;
@@ -11,6 +12,9 @@
     padding-top: 20px;
     height: 35vh;
     background-color: #000428;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap ;
 
 }
 .main{
@@ -18,10 +22,11 @@
     height: 25vh;
 
 
+
   
 }
 .outer{
-    /* background-color: purple; */
+ 
   display:flex;
 justify-content: center;
 
@@ -31,34 +36,37 @@ justify-content: center;
     
     background-color: gray;
     text-align: center;
-    margin: 10px;
-    width: 200px;
+    margin: 0px 10px ;
+    width: 150px;
     height: 125px;
     min-height: 50px;
-    min-width: 100px;
+    min-width: 50px;
     background-image: linear-gradient(to bottom,#614385,#000428);
-box-shadow:0px 8px 20px 0px rgba(0, 0, 0, 0.6) ;
-font-size: 40px;
+    box-shadow:0px 8px 20px 0px rgba(0, 0, 0, 0.6) ;
+    font-size: 40px;
+
     
 
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 .main2{
     padding-top: 30px;
     background-color: #000428;
-    /* background-color: green; */
     height: 40vh;
 
 }
 .last{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .last .btn{
     margin: 5px;
-    
+    min-width: 20px;
     background-image: linear-gradient(to bottom,#614385,#000428);
     box-shadow:0px 8px 20px 0px rgba(0, 0, 0, 0.6) ; 
 }

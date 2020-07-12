@@ -27,6 +27,9 @@ function start(){
     interval = setInterval(timer,10)
     var getbutton = document.getElementById("startbtn").disabled = true;
     var getbutton2 = document.getElementById("resumebtn").disabled = true;
+  var getbutton = document.getElementById("pause").disabled = false;
+  var getbutton = document.getElementById("stop").disabled = false;
+
     
 
 }
@@ -50,7 +53,11 @@ function stop(){
   getsec.innerHTML = sec;
   getmin.innerHTML = mili;
   var getbutton = document.getElementById("startbtn").disabled = false;
-  var getbutton = document.getElementById("resumebtn").disabled = false;
+  var getbutton = document.getElementById("resumebtn").disabled = true;
+  var getbutton = document.getElementById("pause").disabled = true;
+  var getbutton = document.getElementById("stop").disabled = true;
+
+
   
 
 }
